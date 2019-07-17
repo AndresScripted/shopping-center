@@ -23,11 +23,12 @@ fieldset {
 }
 
 #form-container {
-  position: relative;
-  width: 380px;
-  margin: 0 auto;
-  top: 15%;
-  transform: translateY(-50%);
+    display: none;
+    position: relative;
+    width: 380px;
+    margin: 0 auto;
+    top: 15%;
+    transform: translateY(-50%);
 }
 
 .third {

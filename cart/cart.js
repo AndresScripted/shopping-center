@@ -10,13 +10,8 @@ $("#backBtn").click(function(){
     window.history.back();
 });
 
-function openForm(){
-    document.getElementBuId("form-container").style.display = "none";
-}
+
 window.onload = function itemVariations(){
-    $("#content").empty();
-    $("#sq-creditcard").append(" $" + pTotal);
-    openForm();
      $.ajax({
         //url: "../api/api.json",
         url: "../api/inventory.php",
@@ -147,19 +142,10 @@ $("body").on('click', 'button.minus', function(e){
 
 
 
-
-$("#checkout").click(function(){
-    window.location = "../payment/payment.html";
-});
-
 $("#checkOut").click(function(){
-    $("#categories").hide();
-    $("#content").hide();
-    $("#bottom").hide();
-    closeForm();
+    $("#categories").empty();
+    $("#content").empty();
+    $("#bottom").empty();
+    $("#form-container").css("display", "block");
 
 });
-
-function closeForm(){
-document.getElementById("form-container") = "block";
-}
