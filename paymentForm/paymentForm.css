@@ -23,7 +23,6 @@ fieldset {
 }
 
 #form-container {
-    display: none;
     position: relative;
     width: 380px;
     margin: 0 auto;
@@ -95,4 +94,8 @@ fieldset {
 .button-credit-card:hover {
   background: linear-gradient(180deg,#a791ff -57.14%,#856aef 125%);
   color: #fff;
+}
+
+#nonce-form{
+    display: none;
 }

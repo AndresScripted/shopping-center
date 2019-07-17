@@ -146,6 +146,6 @@ $("#checkOut").click(function(){
     $("#categories").empty();
     $("#content").empty();
     $("#bottom").empty();
-    $("#form-container").css("display", "block");
+    $("#nonce-form").css("display", "block");
 
 });
