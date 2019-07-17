@@ -156,6 +156,10 @@ $("checkOut").click(function(){
     $("#categories").hide();
     $("#content").hide();
     $("#bottom").hide();
-    $("#form-container").show();
+    closeForm();
 
 });
+
+function closeForm(){
+document.getElementById("form-container") = "block";
+}
