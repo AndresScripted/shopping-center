@@ -10,11 +10,13 @@ $("#backBtn").click(function(){
     window.history.back();
 });
 
-
+function openForm(){
+    document.getElementBuId("form-container").style.display = "none";
+}
 window.onload = function itemVariations(){
     $("#content").empty();
     $("#sq-creditcard").append(" $" + pTotal);
-    $("#form-container").hide();
+    openForm();
      $.ajax({
         //url: "../api/api.json",
         url: "../api/inventory.php",
