@@ -152,7 +152,7 @@ $("#checkout").click(function(){
     window.location = "../payment/payment.html";
 });
 
-$("checkOut").click(function(){
+$("#checkOut").click(function(){
     $("#categories").hide();
     $("#content").hide();
     $("#bottom").hide();
