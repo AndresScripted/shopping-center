@@ -141,11 +141,3 @@ $("body").on('click', 'button.minus', function(e){
 });
 
 
-
-$("#checkOut").click(function(){
-    $("#categories").empty();
-    $("#content").empty();
-    $("#bottom").empty();
-    $("#nonce-form").css("display", "block");
-
-});
