@@ -118,7 +118,7 @@ $("body").on('click', 'button.plus', function(e){
     calPrice();
     if(currentVal === 1){
         $("#content").prepend(biggerParent);
-        $("body").animate({scrollTop: '0px'}, 0);
+        $("#content").animate({scrollTop: '0px'}, 0);
     }
 
 });
