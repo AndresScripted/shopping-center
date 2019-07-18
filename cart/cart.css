@@ -19,6 +19,12 @@
     #form-container{
         width: 375px
     }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
+    }
 }
 
     /* iphone 6+, 6s+, 7+, 8+ */
@@ -41,6 +47,12 @@
     }
     #form-container{
         width: 414px;
+    }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
     }
 }
 
@@ -65,6 +77,12 @@
     #form-container{
         width: 375px;
     }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
+    }
 }
 
     /* iphone XR */
@@ -87,6 +105,12 @@
     }
     #form-container{
         width: 414px;
+    }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
     }
 }
 
@@ -111,6 +135,12 @@
     #form-container{
         width: 375px;
     }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
+    }
 }
 
    /* iphone XS Max */
@@ -133,6 +163,12 @@
     }
     #form-container{
         width: 414px;
+    }
+    #name{
+        margin-left:3.8%;
+    }
+    .name{
+        font-size: 16px;
     }
 }
 
@@ -164,6 +200,12 @@
     #totalPrice{
         margin-left: 17%;
     }
+    #name{
+        margin-left:32.8%;
+    }
+    .name{
+        font-size: 26px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -193,9 +235,47 @@
     #totalPrice{
         margin-left: 17%;
     }
+    #name{
+        margin-left:32.8%;
+    }
+    .name{
+        font-size: 26px;
+    }
 }
 
+@media only screen and (min-width: 1920px){
+    body{
+        width: 1920px;
+    }
 
+    #content{
+        width: 1920px;
+    }
+    #categories{
+        width: 1920px;
+    }
+    #header{
+        width:1920px;
+    }
+    #bottom{
+        width: 1920px;
+    }
+    #form-container{
+        width: 1920px;
+    }
+    #totalQuantity{
+        margin-left:57%;
+    }
+    #totalPrice{
+        margin-left: 17%;
+    }
+    #name{
+        margin-left:32.8%;
+    }
+    .name{
+        font-size: 26px;
+    }
+}
 
 
 
@@ -244,10 +324,6 @@
 #categories{
     display: flex;
     justify-content: space-around;
-}
-
-#name{
-     margin-left:32.8%;
 }
 
 
@@ -357,7 +433,6 @@ wrapper css
 
 .name{
     width:7%;
-    font-size: 26px;
 }
 
 .itemImg{
