@@ -1,50 +1,185 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* iphone 6, 6s, 7, 8 */
+    @media only screen and (min-width: 375px) and (max-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    body{
+        width: 375px;
+    }
+
     #content{
-        width: 600px;
+        width: 375px;
+    }
+    #categories{
+        width: 375px;
+    }
+    #header{
+        width: 375px;
     }
     #bottom{
-        width: 600px;
+        width: 375px;
+    }
+    #form-container{
+        width: 375px
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+    /* iphone 6+, 6s+, 7+, 8+ */
+    @media only screen and (min-width: 414px) and (max-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    body{
+        width: 414px;
+    }
+
     #content{
-        width: 600px;
+        width: 414px;
+    }
+    #categories{
+        width: 414px;
+    }
+    #header{
+        width: 414px;
     }
     #bottom{
-        width: 600px;
+        width: 414px;
+    }
+    #form-container{
+        width: 414px;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+    /* iphone X */
+    @media only screen and (min-width: 375px) and (max-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    body{
+        width: 375px;
+    }
+
     #content{
-        width: 768px;
+        width: 375px;
+    }
+    #categories{
+        width: 375px;
+    }
+    #header{
+        width: 375px;
     }
     #bottom{
-        min-width: 768px;
+        width: 375px;
+    }
+    #form-container{
+        width: 375px;
     }
 }
+
+    /* iphone XR */
+    @media only screen and (min-width : 414px) and (max-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    body{
+        width: 414px;
+    }
+
+    #content{
+        width: 414px;
+    }
+    #categories{
+        width: 414px;
+    }
+    #header{
+        width: 414px;
+    }
+    #bottom{
+        width: 414px;
+    }
+    #form-container{
+        width: 414px;
+    }
+}
+
+   /* iphone XS */
+    @media only screen and (min-width : 375px) and (max-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    body{
+        width: 375px;
+    }
+
+    #content{
+        width: 375px;
+    }
+    #categories{
+        width: 375px;
+    }
+    #header{
+        width: 375px;
+    }
+    #bottom{
+        width: 375px;
+    }
+    #form-container{
+        width: 375px;
+    }
+}
+
+   /* iphone XS Max */
+    @media only screen and (min-width : 414px) and (max-height : 896px) and (-webkit-device-pixel-ratio : 3) {
+    body{
+        width: 414px;
+    }
+
+    #content{
+        width: 414px;
+    }
+    #categories{
+        width: 414px;
+    }
+    #header{
+        width: 414px;
+    }
+    #bottom{
+        width: 414px;
+    }
+    #form-container{
+        width: 414px;
+    }
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    body{
+        width: 992px
+    }
+
     #content{
         width: 992px;
     }
+    #categories{
+        width: 992px;
+    }
+    #header{
+        width: 992px;
+    }
     #bottom{
-        min-width: 992px;
+        width: 992px;
+    }
+    #form-container{
+        width: 992px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    body{
+        width: 1200px;
+    }
+
     #content{
         width: 1200px;
     }
+    #categories{
+        width: 1200px;
+    }
+    #header{
+        width:1200px;
+    }
     #bottom{
-        min-width: 1200px;
+        width: 1200px;
+    }
+    #form-container{
+        width: 1200px;
     }
 }
 
@@ -113,7 +248,6 @@
 
 #bottom{
     display: flex;
-    width: 100%;
 }
 
 #blank{
@@ -136,7 +270,6 @@
 }
 
 #content{
-    width: 100%;
     height: 650px;
     overflow-y: auto;
     border: 5px ridge grey;
