@@ -634,7 +634,39 @@
     }
 }
 
+@media only screen and (min-width: 1366px){
+    body{
+        width: 1366px;
+    }
 
+    #content{
+        width: 1366px;
+    }
+    #categories{
+        width: 1366px;
+    }
+    #header{
+        width: 1366px;
+    }
+    #bottom{
+        width: 1366px;
+    }
+    #form-container{
+        width: 1366px;
+    }
+    #totalQuantity{
+        margin-left:57%;
+    }
+    #totalPrice{
+        margin-left: 17%;
+    }
+    #name{
+        margin-left:32.8%;
+    }
+    .name{
+        font-size: 26px;
+    }
+}
 
 
 
