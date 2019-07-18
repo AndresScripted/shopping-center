@@ -158,6 +158,12 @@
     #form-container{
         width: 992px;
     }
+    #totalQuantity{
+        margin-left:57%;
+    }
+    #totalPrice{
+        margin-left: 17%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -180,6 +186,12 @@
     }
     #form-container{
         width: 1200px;
+    }
+    #totalQuantity{
+        margin-left:57%;
+    }
+    #totalPrice{
+        margin-left: 17%;
     }
 }
 
@@ -252,12 +264,10 @@
 
 #totalQuantity{
     display: inline-block;
-    margin-left:57%;
 }
 
 #totalPrice{
     display: inline-block;
-    margin-left: 17%;
 }
 
 .price{
