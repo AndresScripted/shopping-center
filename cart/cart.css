@@ -1,3 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #content{
+        width: 600px;
+    }
+    #bottom{
+        width: 600px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #content{
+        min-width: 600px;
+        max-width: 800px;
+    }
+    #bottom{
+        min-width: 600px;
+        max-width: 800px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #content{
+        min-width: 768px;
+        max-width: 1000px;
+    }
+    #bottom{
+        min-width: 768px;
+        max-width: 1000px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #header{
     display: flex;
     flex-direction: column;
