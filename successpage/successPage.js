@@ -1,3 +1,3 @@
 $("#continueShop").click(function(){
-    window.location = "../assets/index.html";
+    window.location = "../index.html";
 });

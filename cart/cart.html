@@ -1,90 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link type='text/css' rel='stylesheet' href='cart.css' />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link type='text/css' rel='stylesheet' href='cart.css' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- link to the SqPaymentForm library -->
-<script type="text/javascript" src="https://js.squareup.com/v2/paymentform">
-</script>
+        <!-- link to the SqPaymentForm library -->
+        <script type="text/javascript" src="https://js.squareup.com/v2/paymentform">
+        </script>
 
-<script type="text/javascript" src="../js/appid.php">
-</script>
+        <script type="text/javascript" src="../js/appid.php">
+        </script>
 
-<!-- link to the local SqPaymentForm initialization -->
-<script type="text/javascript" src="../js/paymentForm.js">
-</script>
+        <!-- link to the local SqPaymentForm initialization -->
+        <script type="text/javascript" src="../js/paymentForm.js">
+        </script>
 
-<!-- link to the local custom styles for SqPaymentForm -->
-<link rel="stylesheet" type="text/css" href="../paymentForm/paymentForm.css">
+        <!-- link to the local custom styles for SqPaymentForm -->
+        <link rel="stylesheet" type="text/css" href="../paymentForm/paymentForm.css">
 
-</head>
+    </head>
 
-<body>
-    <div id="top">
-<div id="backBtn">
-    <img id="backButton" src="https://image.flaticon.com/icons/png/512/54/54394.png">
-    </div>
-
-</div>
-
-
-    <div id="header">
-       <img id="logo" src="../logo.png">
-        <h1 id="title"> Your Shopping Cart </h1>
-    </div>
-
-    <div id="categories">
-        <h2 id="name"> Name </h2>
-        <h2 id="quantity"> Quantity </h2>
-        <h2 id="price"> Price <h2>
-    </div>
-
-    <div id="content">
-
-    </div>
-
-    <div id="bottom">
-
-        <div id="totalQuantity">
-            <h1 id="quantityNum"> Quantity: </h1>
-            <h2 id="numOfQuan"> </h2>
-        </div>
-        <div id="totalPrice">
-        <h1 id="totalNum"> Total: </h1>
-        <h2 id="numOfTotal"> </h2>
+    <body>
+        <div id="top">
+            <div id="backBtn">
+                <img id="backButton" src="https://image.flaticon.com/icons/png/512/54/54394.png">
+            </div>
 
         </div>
 
-    </div>
+
+        <div id="header">
+            <img id="logo" src="../logo.png">
+            <h1 id="title"> Your Shopping Cart </h1>
+        </div>
+
+        <div id="categories">
+            <h2 id="name"> Name </h2>
+            <h2 id="quantity"> Quantity </h2>
+            <h2 id="price"> Price <h2>
+        </div>
+
+        <div id="content">
+
+        </div>
+
+        <div id="bottom">
+
+            <div id="totalQuantity">
+                <h1 id="quantityNum"> Quantity: </h1>
+                <h2 id="numOfQuan"> </h2>
+            </div>
+            <div id="totalPrice">
+                <h1 id="totalNum"> Total: </h1>
+                <h2 id="numOfTotal"> </h2>
+
+            </div>
+
+        </div>
 
         <div id="form-container">
-      <div id="sq-ccbox">
-        <form id="nonce-form" novalidate action="process-payment" method="post">
-          <fieldset>
-            <div id="sq-card-number"></div>
-            <div class="third">
-              <div id="sq-expiration-date"></div>
-            </div>
-            <div class="third">
-              <div id="sq-cvv"></div>
-            </div>
-            <div class="third">
-              <div id="sq-postal-code"></div>
-            </div>
-          </fieldset>
-          <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)"> Pay </button>
-          <!--
+            <div id="sq-ccbox">
+                <form id="nonce-form" novalidate action="process-payment" method="post">
+                    <fieldset>
+                        <div id="sq-card-number"></div>
+                        <div class="third">
+                            <div id="sq-expiration-date"></div>
+                        </div>
+                        <div class="third">
+                            <div id="sq-cvv"></div>
+                        </div>
+                        <div class="third">
+                            <div id="sq-postal-code"></div>
+                        </div>
+                    </fieldset>
+                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)"> Pay </button>
+                    <!--
             After a nonce is generated it will be assigned to this hidden input field.
           -->
-          <input type="hidden" id="card-nonce" name="nonce">
-        </form>
-      </div> <!-- end #sq-ccbox -->
-     </div> <!-- end #form-container -->
+                    <input type="hidden" id="card-nonce" name="nonce">
+                </form>
+            </div> <!-- end #sq-ccbox -->
+        </div> <!-- end #form-container -->
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="cart.js"></script>
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="cart.js"></script>
+    </body>
 
 </html>
-
