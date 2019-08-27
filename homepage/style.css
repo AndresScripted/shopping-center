@@ -1,6 +1,7 @@
 #header{
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
 }
 
 #shopBtn{
@@ -11,10 +12,22 @@
 }
 
 #main{
-    border: 1px solid red;
+    border: 1px solid blue;
     height: 400px;
     width: 100%;
+    margin-top: 20px;
 }
+
+.centerTxt{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid green;
+}
+
+
+
+
 
 #bottom{
     border: 1px solid green;
